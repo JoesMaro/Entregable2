@@ -1,0 +1,68 @@
+{
+  "autos": [
+    {
+      "nombre": "honda navi",
+      "marca": "honda",
+      "modelo": "navi",
+      "ano": 1950,
+      "dueno": 4,
+      "id": 1
+    },
+    {
+      "nombre": "Chevrolet corsa",
+      "marca": "chevrolet",
+      "modelo": "corsa",
+      "ano": 1995,
+      "dueno": 3,
+      "id": 2
+    },
+    {
+      "nombre": "honda navi",
+      "marca": "honda",
+      "modelo": "navi",
+      "ano": 1950,
+      "dueno": 4,
+      "id": 3
+    },
+    {
+      "nombre": "Ford F150",
+      "marca": "ford",
+      "modelo": "F150",
+      "ano": 2020,
+      "dueno": 0,
+      "id": 4
+    },
+    {
+      "nombre": "nissan sentra",
+      "marca": "nissan",
+      "modelo": "Sentra",
+      "ano": 1995,
+      "dueno": 12,
+      "id": 5
+    },
+    {
+      "nombre": "MAZDA BT50",
+      "marca": "mazda",
+      "modelo": "BT50",
+      "ano": 2020,
+      "dueno": 2,
+      "id": 6
+    },
+    {
+      "nombre": "Hyundai I100",
+      "marca": "hyundai",
+      "modelo": "I10",
+      "ano": 2024,
+      "dueno": 1,
+      "id": 7
+    },
+    {
+      "nombre": "Volkswagen Gol",
+      "marca": "volkswagen",
+      "modelo": "GOL",
+      "ano": 1995,
+      "dueno": 2,
+      "id": 8
+    }
+  ]
+}

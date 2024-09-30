@@ -1,0 +1,50 @@
+<div class="container mt-3">
+    <h2 class="titulo">FILTROS</h2>
+    <div>
+        <select name="" id="" [(ngModel)]="opcion">
+            <option value="chevrolet">chevrolet</option>
+            <option value="ford">ford</option>
+            <option value="honda">honda</option>
+            <option value="toyota">toyota</option>
+            <option value="nissan">nissan</option>
+            <option value="mazda">mazda</option>
+            <option value="volkswagen">volkswagen</option>
+            <option value="hyundai">hyundai</option>
+          </select>
+    </div>
+    <h2 class="subtitulo">LISTADO DE AUTOS</h2>
+    <p>Aqui se observa los autos mas modernos del mercado</p>            
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NOMBRE VEHICULO</th>
+          <th>MARCA</th>
+          <th>MODELO</th>
+          <th>AÑO</th>
+          <th>DUEÑOS ANTERIORES</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        @for (item of autos; track item) {
+            @if (item.marca ==opcion) {
+        <tr>
+          <td>{{item.id}}</td>
+          <td>{{item.nombre}}</td>
+          <td>{{item.marca}}</td>
+          <td>{{item.modelo}}</td>
+          <td>{{item.ano}}</td>
+          <td>{{item.dueno}}</td>
+        
+          <td>
+            <button class="btn btn-success" [routerLink]="['/editar/',item.id]" routerLinkActive="router-link-active" >Editar</button>
+
+            <button class="btn btn warning" (click)="eliminar(item.id)">Eliminar</button>
+          </td>
+        </tr>
+    }
+     }
+      </tbody>
+    </table>
+  </div>
